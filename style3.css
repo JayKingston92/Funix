@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  .div1{
+      padding-top: 10px;
+      background-image: url("Pic1.png");
+      background-repeat: no-repeat;
+      height: 500px;
+  }
+  @media only screen and (max-width: 992px) {
+    .div1 { 
+       background-image:unset; 
+    }
+  }
+  .div2{
+      position:relative;
+      top: 110px;
+      left: 80px;
+      color: white;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+  }
+  @media only screen and (max-width: 992px) {
+    .div2 { 
+       color: black;
+       text-align: left;
+       position: relative;
+       top: 0px;
+       left: 0px;
+    }
+  }
+  .div3{
+      position: relative;
+      padding-left: 15px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .row{
+      float: left;
+      background-color: gainsboro;
+  }
+  @media only screen and (max-width: 992px) {
+    .row{ 
+      background-color:unset;
+    }
+  }
+  #img1{
+      width: 100%;
+      height: auto;
+      padding: 10px 5px 20px 0px;
+  }
+  #footer{
+      background-color: rgba(238, 240, 219, 0.918);
+  }
+  @media only screen and (max-width: 992px) {
+    #footer{ 
+      background-color:unset;
+    }
+}
+  .a2{
+      color: rgb(20, 141, 141); font-weight: bold;
+      font-weight: bold;
+  }
